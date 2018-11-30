@@ -56,7 +56,7 @@
             * 개인적인 생각 = 큰 프로젝트 시 로깅 설정이 많아 각 profile 별 로깅 정의 파일을 만들어 맞는 파일을 참조하도록 구성하는것 같습니다.
             * 코드의 중복은 생기지만 가독적인 측면에서 효율적이라고 생각됩니다.
 
- * CI(jenkins 사용 경험)  참조 = [창천향로](https://jojoldu.tistory.com/290)
+ * jenkins 사용 경험 참조 = [창천향로](https://jojoldu.tistory.com/290)
      * systemctl을 이용한 jenkins 서비스 running(ec2 최상단의 경우 sudo service jenkins start 명령어 사용 - systemctl 세팅을 하지 않은 버전이기때문..)
      * 배치성 서버를 개발하고 있어 github에 hook을 걸어 지속적 배포 역할의 job과 스케쥴링이 있는 job들을 사용하고 있습니다.
          * 형상관리를 위해서 쉘스크립트 파일을 사용 추천(해당 부분은 후에 결국 Dockerfile 사용 예상)
