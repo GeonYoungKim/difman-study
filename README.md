@@ -1,7 +1,7 @@
 # 배포, CI, 로깅 스터디
-```bash
-cd asdf
-ls -al
+```java
+System.out.println("hello world");
+int a = 10;
 ```
 
 
