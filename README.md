@@ -1,9 +1,4 @@
 # 배포, CI, 로깅 스터디
-```java
-System.out.println("hello world");
-int a = 10;
-```
-
 
 1. 배포
     * 배포를 하기위해 거치는 단계
